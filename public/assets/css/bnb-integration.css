@@ -1,0 +1,181 @@
+/* BNB content integration: extends the approved component system only. */
+:root{
+  --brand-primary:#204A9B;
+  --brand-primary-hover:#183A7A;
+  --brand-primary-active:#122C60;
+  --brand-primary-soft:#EDF3FB;
+  --brand-primary-muted:#2B64B8;
+  --brand-primary-border:#B8CBE8;
+  --brand-focus-ring:#2B64B8;
+  --primary-brown:var(--brand-primary);
+  --primary-light:var(--brand-primary-muted);
+  --primary-dark:var(--brand-primary-active);
+  --accent-gold:#B85F00;
+  --accent-terracotta:#B85F00;
+  --accent-green:var(--brand-primary);
+}
+/* Preserve the website's approved dark sections and their existing accents. */
+.home-impact-section,footer{
+  --brand-primary:#1B4332;
+  --brand-primary-hover:#14372A;
+  --brand-primary-active:#0E2C20;
+  --brand-primary-soft:#EDF4F0;
+  --brand-primary-muted:#2D6A4F;
+  --brand-primary-border:#C2D6CB;
+  --brand-focus-ring:#2D6A4F;
+  --primary-brown:#1B4332;
+  --primary-light:#2D6A4F;
+  --primary-dark:#0E2C20;
+  --accent-gold:#2D6A4F;
+  --accent-terracotta:#2D6A4F;
+  --accent-green:#1B4332;
+}
+.bnb-service-icon{display:flex;align-items:center;justify-content:center;height:150px;color:var(--brand-primary);font-size:3rem;background:var(--brand-primary-soft)}
+.bnb-logo-icon{display:flex!important;align-items:center;justify-content:center;background:var(--brand-primary)!important;color:var(--brand-on-primary);font-size:1.25rem}.bnb-logo-icon i{color:var(--brand-on-primary)}
+.bnb-brand-logo{object-fit:contain!important;object-position:center!important}.logo .bnb-brand-logo{padding:2px}.footer-logo .bnb-brand-logo{flex:0 0 auto}
+#heroStats.bnb-active{display:flex!important;opacity:1!important;visibility:visible!important;margin-top:var(--space-xl)}#heroStats.bnb-active .stat{min-width:0}#heroStats.bnb-active .stat-number{color:var(--text-dark);font-size:var(--font-size-base)}#heroStats.bnb-active .stat-label{color:var(--text-light);font-size:var(--font-size-xs)}
+.bnb-service-card .product-info{align-items:center;text-align:center}.bnb-service-card .product-name-text{display:flex;align-items:center;justify-content:center;min-height:2.8em;font-family:'Playfair Display',serif;font-size:1.15rem}.bnb-service-card .product-price{margin-top:.45rem;color:var(--text-light);font-size:.82rem;line-height:1.55}
+.bnb-section{padding:var(--section-spacing) 0}.bnb-section:nth-of-type(even){background:var(--light-gray)}.bnb-content-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-xl)}.bnb-content-card{padding:var(--space-xxl);border:1px solid var(--medium-gray);border-radius:var(--radius-lg);background:var(--white);box-shadow:var(--shadow-sm)}.bnb-content-card>i{margin-bottom:var(--space-lg);color:var(--brand-primary);font-size:1.75rem}.bnb-content-card h3{font-size:var(--font-size-xl)}.bnb-content-card ul{margin:var(--space-lg) 0 0;padding:0;list-style:none}.bnb-content-card li{padding:.55rem 0;border-top:1px solid var(--medium-gray);color:var(--text-light);font-size:var(--font-size-sm)}.bnb-content-card li:before{content:'✓';margin-right:.55rem;color:var(--brand-primary-muted);font-weight:700}.bnb-section-cta{display:flex;align-items:center;justify-content:space-between;gap:var(--space-xl);margin-top:var(--space-xl);padding:var(--space-xl);border-radius:var(--radius-lg);background:var(--brand-primary-soft)}.bnb-section-cta p{margin:0;font-weight:700}.bnb-doc-grid,.bnb-steps-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-lg)}.bnb-doc-card,.bnb-step-card{padding:var(--space-xl);border-radius:var(--radius-lg);background:var(--white);box-shadow:var(--shadow-sm)}.bnb-doc-card i{margin-bottom:var(--space-lg);color:var(--brand-primary);font-size:1.6rem}.bnb-doc-card p,.bnb-step-card p{color:var(--text-light);font-size:var(--font-size-sm)}.bnb-step-number{display:flex;align-items:center;justify-content:center;width:44px;height:44px;margin-bottom:var(--space-lg);border-radius:var(--radius-full);background:var(--brand-primary);color:var(--brand-on-primary);font-weight:700}.bnb-hours-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem;margin:1.25rem auto;max-width:680px}.bnb-hours-row{display:flex;justify-content:space-between;gap:1rem;padding:.85rem 1rem;border:1px solid var(--brand-primary-border);border-radius:var(--radius-md);background:rgba(255,255,255,.9);color:var(--text-dark);font-size:var(--font-size-sm)}.bnb-status{display:inline-flex;align-items:center;gap:.55rem;padding:.55rem .85rem;border-radius:var(--radius-full);background:var(--white);color:var(--text-dark);font-weight:700}.bnb-status i{color:var(--error);font-size:.65rem}.bnb-status.open i{color:var(--success)}.bnb-status small{font-weight:500;color:var(--text-light)}.bnb-map-placeholder{display:flex;align-items:center;justify-content:center;min-height:170px;margin-top:var(--space-lg);padding:var(--space-xl);border:1px dashed var(--brand-primary-border);border-radius:var(--radius-lg);background:var(--brand-primary-soft);color:var(--brand-primary);text-align:center}.bnb-floating-whatsapp{position:fixed;right:1.25rem;bottom:1.25rem;z-index:999;display:flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:var(--radius-full);background:#25D366;color:#FFFFFF;box-shadow:var(--shadow-lg);font-size:1.4rem;transition:var(--transition-fast)}.bnb-floating-whatsapp:hover{transform:translateY(-2px);background:#1EBE5D}.bnb-form-error{display:block;min-height:1rem;margin-top:.25rem;color:var(--error);font-size:.72rem}.form-group.bnb-invalid input,.form-group.bnb-invalid select,.form-group.bnb-invalid textarea{border-color:var(--error)}.bnb-form-note{margin-top:var(--space-sm);color:var(--text-light);font-size:.72rem}/* The template's mission/vision container is a 2-column grid, which
+   squeezed the labels into the left half; ours holds one labels row. */
+.home-story-section .mission-vision-section{grid-template-columns:1fr!important}
+.bnb-feature-labels{display:flex;flex-wrap:wrap;justify-content:center;gap:var(--space-md);margin-top:var(--space-xl)}.bnb-feature-labels span{padding:var(--space-md);border:1px solid var(--brand-primary-border);border-radius:var(--radius-md);color:var(--brand-primary);font-weight:700;text-align:center}
+/* Footer social icons: keep visible even with the "#" placeholder hrefs
+   (the theme hides [href="#"] icons); real profile links to follow. */
+.footer-social-bar .footer-social-icon{display:flex!important}
+.contact-content{grid-template-columns:1fr!important}.contact-info{grid-template-rows:none!important;grid-template-columns:repeat(2,minmax(0,1fr));width:100%}
+/* Address block: stacked left-aligned lines. The theme lays .contact-details
+   paragraphs out as flex label/value pairs, which split the address into
+   side-by-side chunks. */
+.bnb-address{margin-top:.35rem}
+.bnb-address p{display:block!important;margin:0 0 .7rem!important;text-align:left!important;line-height:1.65}
+.bnb-address-name{font-weight:700;color:var(--text-dark)}
+/* The map placeholder is now the Google Maps link itself. */
+a.bnb-map-placeholder{text-decoration:none;cursor:pointer;transition:var(--transition-fast)}
+a.bnb-map-placeholder:hover{border-color:var(--brand-primary);background:#E2ECF9}
+/* PC view: map tile beside the location details (mobile keeps the stack). */
+@media(min-width:1024px){
+.contact-card:not(.contact-card-combined) .contact-details{display:grid!important;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);column-gap:2.5rem;align-items:start}
+.contact-card:not(.contact-card-combined) .contact-details>h3,
+.contact-card:not(.contact-card-combined) .contact-details>.bnb-address,
+.contact-card:not(.contact-card-combined) .contact-details>p{grid-column:1}
+.contact-card:not(.contact-card-combined) .contact-details>a.bnb-map-placeholder{grid-column:2;grid-row:1/span 3;align-self:stretch;height:100%;min-height:240px;margin-top:0}
+}
+a.header-contact-btn,header a.header-contact-btn{background-color:var(--brand-primary)!important}a.header-contact-btn:hover,header a.header-contact-btn:hover{background-color:var(--brand-primary-hover)!important}.hero #heroBtn2 .btn-arrow-sq,#heroBtn2 .btn-arrow-sq{background:var(--brand-primary)!important}.hero #heroBtn2:hover .btn-arrow-sq,#heroBtn2:hover .btn-arrow-sq{background:var(--brand-primary-hover)!important}
+/* Warm logo-orange is reserved for small visual cues, never primary actions. */
+.bnb-content-card>i,.bnb-doc-card>i,.bnb-content-card li:before,.contact-icon,.contact-link>i{color:var(--accent-gold)!important}.bnb-service-card:nth-child(even) .bnb-service-icon{color:var(--accent-gold)}
+/* Services overview cards: fixed-size cards with the icon, title and
+   description all inside the card box. Kills the template's empty 3:4
+   portrait image area that pushed the text below the visual card. */
+.bnb-service-card{display:flex;align-self:stretch;flex-direction:column;height:100%;overflow:hidden;border:1px solid rgba(18,44,96,.14)!important;box-shadow:0 6px 18px rgba(18,44,96,.07)!important;border-radius:var(--radius-lg)}
+.bnb-service-card .product-image{display:flex;align-items:center;justify-content:center;aspect-ratio:auto!important;height:160px!important;min-height:160px;flex:0 0 160px;overflow:hidden;background:#fff}
+.bnb-service-card .bnb-service-card-image{display:block;width:100%;height:100%;padding:.65rem;object-fit:contain;object-position:center}
+.bnb-service-card .bnb-service-icon{height:130px}
+.bnb-service-card .product-info{display:flex;flex:1 1 auto;flex-direction:column;gap:.4rem;padding:1.1rem 1.2rem 1.25rem}
+.bnb-service-card .product-price{border-top:none}
+/* Center the 4 cards as a group: the template's grid reserves 5 desktop
+   tracks (and 3 on tablet) for this row, so with 4 cards the set sat
+   left of center beside phantom empty columns. Tracks now match the
+   card count and the whole row centers at every width. */
+#homeFeaturedGrid{align-items:stretch;justify-content:center!important;grid-template-columns:repeat(4,minmax(0,260px))!important;gap:1.75rem!important}
+@media(max-width:899px){#homeFeaturedGrid{grid-template-columns:repeat(2,minmax(0,300px))!important;gap:1.25rem!important}}
+.bnb-service-card{justify-content:flex-start}.bnb-service-card .product-info{justify-content:flex-start;width:100%}
+@media(min-width:900px){.bnb-service-card{min-height:360px}}
+
+/* Printing & Document Services cards: title, description and button all
+   live inside one white card box. The template kept the caption below the
+   photo tile, clamped the description to 2 lines, and used a white
+   hover-reveal button meant for photo overlays. display:contents on
+   .craft-card lets the icon, caption and button stack as one flex column
+   inside the wrapper, with the button pinned to the bottom. */
+.home-collections-section .craft-card-wrapper{display:flex;flex-direction:column;overflow:hidden;border:1px solid rgba(18,44,96,.14);border-radius:var(--radius-lg);background:var(--white);box-shadow:0 6px 18px rgba(18,44,96,.07)}
+.home-collections-section .craft-card{display:contents}
+.home-collections-section .bnb-service-icon{order:0;flex:0 0 auto;height:120px}
+.home-collections-section .craft-card-caption{order:1;flex:1 1 auto;padding:1rem 1.1rem 0;text-align:center}
+.home-collections-section .craft-card-desc{display:block;-webkit-line-clamp:unset;overflow:visible}
+.home-collections-section .craft-button-container{order:2;margin-top:auto;padding:.9rem 1.1rem 1.15rem;opacity:1!important}
+.home-collections-section .craft-btn,.home-collections-section a.craft-btn{color:var(--brand-primary)!important;border:1.5px solid var(--brand-primary)!important;background:transparent!important}
+.home-collections-section .craft-btn:hover,.home-collections-section a.craft-btn:hover{color:#FFFFFF!important;background:var(--brand-primary)!important}
+
+/* "Why choose BNB" (dark impact section): text cards, one single row.
+   The template styled these as photo tiles (aspect-ratio boxes with a
+   bottom-anchored gradient overlay), which clipped our text and wrapped
+   4 cards onto two rows of the 3-column grid. */
+.home-impact-grid{grid-template-columns:repeat(4,1fr)!important;gap:1.1rem!important}
+.home-impact-card{aspect-ratio:auto!important;min-height:200px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05)}
+.home-impact-overlay{position:static!important;height:100%;background:none!important;align-items:flex-start;justify-content:flex-start;padding:1.4rem 1.3rem;text-align:left}
+.home-impact-overlay .home-impact-number{font-size:2rem!important}
+.home-impact-overlay .home-impact-label{margin-top:.15rem}
+.home-impact-overlay p{margin:.55rem 0 0;color:rgba(255,255,255,.72);font-size:.84rem;line-height:1.6}
+@media(max-width:767px){
+.home-impact-grid{display:grid!important;grid-template-columns:repeat(2,1fr)!important;gap:.8rem!important}
+.home-impact-card{min-height:0}
+.home-impact-overlay{padding:1rem .85rem}
+.home-impact-overlay .home-impact-number{font-size:1.4rem!important}
+.home-impact-overlay .home-impact-label{font-size:.62rem!important;letter-spacing:.06em!important}
+.home-impact-overlay p{font-size:.74rem;line-height:1.5}
+}
+
+/* Mobile footer: the template hid footer columns 2-3 ("Shop"/"Company")
+   under 1024px; ours are Services and Quick Links, and they must show. */
+@media(max-width:1024px){
+.footer-content > div:nth-child(2),
+.footer-content > div:nth-child(3){display:block}
+}
+
+/* Hero frames: keep the PC composition on every screen size - feature
+   panel as the left half, panels 2 and 3 stacked as the right half. The
+   template rotated this into a top-banner layout under 1024px. */
+@media(max-width:1023px){
+.hero-frames{width:100%;max-width:420px;height:360px;margin:0 auto;grid-template-columns:1.34fr 1fr;grid-template-rows:1fr 1fr;gap:12px}
+.hero-frame--1{grid-column:1;grid-row:1 / span 2;border-radius:18px 0 0 18px}
+.hero-frame--2{grid-column:2;grid-row:1;border-radius:0 18px 0 0}
+.hero-frame--3{grid-column:2;grid-row:2;border-radius:0 0 18px 0}
+}
+@media(max-width:380px){.hero-frames{height:320px;gap:10px}}
+
+/* Hero frames: branded service panels replacing the template's L2L photos. */
+.bnb-hero-panel{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.7rem;width:100%;height:100%;padding:1rem;background:linear-gradient(165deg,var(--brand-primary) 0%,var(--brand-primary-muted) 100%);color:#FFFFFF;text-align:center}
+.bnb-hero-panel i{font-size:2.4rem;opacity:.95}
+.bnb-hero-panel span{font-size:.72rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;opacity:.92}
+.bnb-hero-panel img{width:68%;max-width:180px;height:auto}
+.bnb-hero-panel--brand{background:linear-gradient(180deg,var(--brand-primary-active) 0%,var(--brand-primary) 55%,var(--brand-primary-muted) 100%)}
+
+/* BNB loop carousel: desktop keeps the plain grid (buttons hidden, viewport
+   inert); under 768px it becomes a scroll-snap peek carousel matching the
+   craft slider, driven by initLoopCarousel() in bnb-integration.js. */
+.bnb-carousel{position:relative}
+.bnb-carousel .carousel-nav-btn{display:none}
+.bnb-carousel-viewport{overflow:visible}
+@media(max-width:767px){
+.bnb-carousel .carousel-nav-btn{display:flex;position:absolute;z-index:30;top:50%;transform:translateY(-50%);align-items:center;justify-content:center;width:36px;height:50px;min-width:36px;background:rgba(255,255,255,.92);border:1px solid rgba(0,0,0,.14);border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.22);cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.bnb-carousel .carousel-nav-btn:active{background:rgba(255,255,255,1);box-shadow:0 1px 4px rgba(0,0,0,.18);transform:translateY(-50%) scale(.93)}
+.bnb-car-prev{left:8px}.bnb-car-next{right:8px}
+.bnb-carousel-viewport{overflow-x:auto;overflow-y:visible;-webkit-overflow-scrolling:touch;scroll-behavior:smooth;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:none;padding:0 20vw;box-sizing:border-box}
+.bnb-carousel-viewport::-webkit-scrollbar{display:none}
+.bnb-doc-grid.bnb-carousel-track{display:flex;grid-template-columns:unset;flex-direction:row;flex-wrap:nowrap;gap:14px;width:max-content}
+.bnb-carousel-track>*{width:60vw;flex:0 0 auto;scroll-snap-align:center;scroll-snap-stop:always}
+}
+@media(max-width:900px){.bnb-content-grid{grid-template-columns:1fr}.bnb-doc-grid,.bnb-steps-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.bnb-section{padding:var(--space-xxl) 0}.bnb-doc-grid,.bnb-steps-grid,.bnb-hours-grid,.contact-info{grid-template-columns:1fr}.bnb-section-cta{align-items:flex-start;flex-direction:column}.bnb-hours-row{flex-direction:column;gap:.15rem}.bnb-floating-whatsapp{right:.85rem;bottom:.85rem}}
+@media(prefers-reduced-motion:reduce){.bnb-floating-whatsapp{transition:none}}
+
+/* Unified header bar: one long orange control containing logo, nav and action. */
+header{height:auto!important;min-height:104px!important;overflow:visible!important;background:transparent!important;border-bottom:0!important;box-shadow:none!important;padding:20px clamp(10px,2vw,24px)!important}
+header .header-container{width:min(100%,1440px)!important;max-width:1440px!important;height:64px!important;min-height:64px!important;overflow:visible!important;margin:0 auto!important;padding:6px 10px 6px 6px!important;border:0!important;border-radius:999px!important;background:#B85F00!important;box-shadow:0 12px 30px rgba(80,38,0,.2)!important}
+header .header-container::before{content:"";position:absolute;left:calc(6px - .25cm);top:50%;z-index:0;width:104px;height:104px;transform:translateY(-50%);border:0;border-radius:50%;background:#B85F00;box-shadow:none}
+header .logo{align-self:stretch!important;gap:.65rem!important;margin:0!important;padding:0 .7rem 0 0!important;color:#fff!important}
+header .logo .bnb-brand-logo{width:104px!important;height:104px!important;margin:0!important;padding:0!important;border:0!important;border-radius:50%!important;background:transparent!important;box-shadow:none!important;transform:translateX(-.25cm)!important}
+header .logo-text,header .logo-text span{color:#fff!important}
+header.scrolled .logo .logo-text,header.scrolled .logo .logo-text span{color:#fff!important;text-shadow:0 1px 2px rgba(74,34,0,.28)!important}
+header .header-right{background:transparent!important;border:0!important;box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+header .header-actions{background:transparent!important;border:0!important;box-shadow:none!important}
+header #mainNav,header #mainNav ul{background:transparent!important;border:0!important;box-shadow:none!important}
+header #mainNav,header #mainNav ul{opacity:1!important;visibility:visible!important}
+header #mainNav li{display:block!important;opacity:1!important;visibility:visible!important}
+header #mainNav .nav-link{display:inline-flex!important;opacity:1!important;visibility:visible!important;background:transparent!important;background-image:none!important;color:#fff!important;text-shadow:0 1px 2px rgba(74,34,0,.28)!important;box-shadow:none!important}
+header #mainNav .nav-link:hover,header #mainNav .nav-link:focus,header #mainNav .nav-link:focus-visible,header #mainNav .nav-link.active{background:transparent!important;background-image:none!important;color:#fff!important;box-shadow:none!important}
+header #mainNav .nav-link::after{background:#fff!important}
+header a.header-contact-btn{background:#204A9B!important;border:1px solid rgba(255,255,255,.35)!important;color:#fff!important}
+header a.header-contact-btn:hover{background:#183A7A!important}
+header .mobile-menu-toggle,header .mobile-menu-toggle i{color:#fff!important}
+@media(max-width:900px){header{min-height:96px!important;padding:19px 8px!important}header .header-container{height:58px!important;min-height:58px!important;padding:4px 8px 4px 4px!important}header .header-container::before{left:calc(4px - .25cm);width:96px;height:96px}header .logo .bnb-brand-logo{width:96px!important;height:96px!important}header .header-right{background:#B85F00!important;border-left:0!important}header #mainNav{border-color:rgba(255,255,255,.25)!important;background:transparent!important}header #mainNav .nav-link{color:#fff!important}}
